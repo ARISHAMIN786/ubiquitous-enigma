@@ -1,0 +1,65 @@
+body{
+  background-color: aquamarine;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-x: center
+}
+header{
+  padding: 10px;
+  background-color: dimgray;
+  color: white;
+  header {
+    background-image: linear-gradient(to right, #434343, #000000);
+  }
+}
+nav ul {
+  list-style: none;
+  margin: 0;   
+
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin: 0   
+ 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+#hero {
+  background-image: url('hero-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+#hero h2, #hero p {
+  text-align: center;
+}
+#features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+#features ul li {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#features, #testimonials {
+  margin-top: 30px;
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+.testimonial {
+  border: 10px solid #ccc;
+  padding: 10px;
+}

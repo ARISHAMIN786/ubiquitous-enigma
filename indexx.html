@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>javascript</h1>
+        <p id="result"></p>
+        <script>
+            function add(a, b) {
+    return a + b; 
+}
+
+let result = add(5, 3);
+document.getElementById("result").innerHTML= result;
+
+        </script>
+<h2>JavaScript While Loop - Repetitive</h2>
+
+<p id="demo"></p>
+
+<script>
+    const cars = ["bmw", "saab", "ford", "audi", "volvo", "mercedes"];
+    
+    let text = "";
+    let repeatCount = 3; 
+    let j = 0; 
+
+    while (j < repeatCount) {
+        let i = 0; 
+        while (i < cars.length) {
+            text += cars[i] + "<br>";
+            i++; 
+        }
+        j++; 
+        text += "<br>"; 
+    }
+    
+    document.getElementById("demo").innerHTML = text;
+</script>
+
+    </head>
+</html>
+
+
